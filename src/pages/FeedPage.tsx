@@ -131,7 +131,7 @@ function VideoPlayer({ url, thumbnailColor, onDoubleTap }: {
 
   if (!playing) {
     return (
-      <div className="absolute inset-0 z-10" onClick={onDoubleTap}>
+      <div className="absolute inset-0 z-[25]" onClick={onDoubleTap}>
         {Bg}
         <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center gap-3">
           <button
